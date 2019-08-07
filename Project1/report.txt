@@ -1,0 +1,5 @@
+In step 5, I inputted a number for "How many electoral college voted did you receive?" which was higher than the number of votes needed to win but lower than the number of votes my opponent received. Therefore it told me I won even though I had fewer votes than my opponent.
+
+For my logic error I switched the outputs "It looks like you won." and "It looks like your main opponent won." This makes the program produce incorrect, backwards results.
+
+For my compile error my two errors were deleting 'int main()' and '#include <iostream> from the code. This stopped the program from compiling and produced 13 errors. most of the errors were segments missing a 'storage class' the others were missing 'declarations' or ';'. I'm not entirely sure why but I'm assuming that 'int main()' is an overarching class that all of the following commands fall into. And once that is removed everything else is just out of place and gets thrown off because when I tried compiling the program with only 'int main()' missing and it produced the same 13 errors.
